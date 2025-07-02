@@ -88,16 +88,28 @@ WSGI_APPLICATION = 'fortress_backend.wsgi.application'
 #     }
 # }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'fortress_monitor',
+#         'USER': 'fortress_user',
+#         'PASSWORD': 'fortress_pass',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'fortress_monitor',
+        'NAME': 'fortress_monitor_db',
         'USER': 'fortress_user',
         'PASSWORD': 'fortress_pass',
-        'HOST': 'localhost',
+        'HOST': 'fortress-monitor-db.cw90macko1lq.us-east-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
+
 
 
 
