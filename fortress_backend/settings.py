@@ -187,6 +187,6 @@ CORS_ALLOWED_ORIGINS = [
 # Optional: CORS allow all during dev
 CORS_ALLOW_ALL_ORIGINS = True
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'fortress_backend/static'),
-]
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR, 'fortress_backend/static'),
+# ]
