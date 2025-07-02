@@ -1,0 +1,5 @@
+{
+    "scanPolicyName": "Default Policy",
+    "alertThreshold": "MEDIUM",
+    "attackStrength": "HIGH"
+}
